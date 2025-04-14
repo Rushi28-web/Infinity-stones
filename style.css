@@ -1,0 +1,114 @@
+body, html{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family:"Lato", sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666;
+  }
+  
+  .pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7{
+    position:relative;
+    opacity:0.70;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+  
+    /*
+      fixed = parallax
+      scroll = normal
+    */
+    background-attachment:fixed;
+  }
+  
+  .pimg1{
+    background-image:url('https://wallpaperaccess.com/full/1106620.jpg');
+    min-height:100%;
+  }
+  
+  .pimg2{
+    background-image:url("-soul-render.webp");
+    min-height:400px;
+  }
+  
+  .pimg3{
+    background-image:url("-time-render.webp");
+    min-height:400px;
+  }
+
+  .pimg4{
+    background-image:url("-mind-render.webp");
+    min-height:400px;
+  }
+
+  .pimg5{
+    background-image:url("-power-render.webp");
+    min-height:400px;
+  }
+
+  .pimg6{
+    background-image:url("-reality-render.webp");
+    min-height:400px;
+  }
+
+  .pimg7{
+    background-image:url("-space-render.webp");
+    min-height:400px;
+  }
+
+  .section{
+    text-align:center;
+    padding:50px 80px;
+  }
+  
+  .section-light{
+    background-color:#282e34;
+    color:#ddd;
+  }
+  
+  .section-dark{
+    background-color:#282e34;
+    color:#ddd;
+  }
+  
+  .ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#000000;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+    font-weight:bold; 
+  }
+    
+  .ptext, .trans{
+    background-color:transparent;
+  }
+  
+  @media(max-width:568px){
+    .pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7{
+      background-attachment:scroll;
+    }
+  }
+  .btn {
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: #0d090e; 
+  }
+  
+  .btn:hover {
+    background-color: #a31ca9;
+    transform: scale(1.05);
+  }
+  
+  .btn:active {
+    transform: scale(0.95);
+  }
+  .c{
+    background-color: #000000;
+    text-align: center;
+  }

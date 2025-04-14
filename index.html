@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Infinity Stones</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      color: white;
+      background-color: #444;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #222;
+    }
+  </style>
+</head>
+<body>
+  <div class="pimg1">
+    <div class="ptext">
+        INFINITY STONES
+    </div>
+  </div>
+  <section class="c"><a href="videoplayback.mp4" target="_blank" class="btn">Watch Video</a></section>
+
+  <section class="section section-light">
+    <h2>SOUL STONE</h2>
+    <p>
+      The Soul Stone was one of the six Infinity Stones... Thanos in 2018 after he sacrificed Gamora.
+    </p>
+    <!-- <a href="https://www.youtube.com/watch?v=8Z6uSJJkb3I" target="_blank" class="btn">Watch Video</a> -->
+  </section>
+
+  <div class="pimg2">
+    <div class="ptext">
+      <span class="border trans">
+        SOUL STONE
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    <h2>TIME STONE</h2>
+    <p>
+      The Time Stone was one of the six Infinity Stones... until he surrendered it to Thanos in 2018.
+    </p>
+    <!-- <a href="https://www.youtube.com/watch?v=w8x5Pvr4zns" target="_blank" class="btn">Watch Video</a> -->
+  </section>
+
+  <div class="pimg3">
+    <div class="ptext">
+      <span class="border trans">
+        TIME STONE
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    <h2>MIND STONE</h2>
+    <p>
+      The Mind Stone was one of the six Infinity Stones... until Thanos forcefully extracted it in 2018.
+    </p>
+    <!-- <a href="https://www.youtube.com/watch?v=GQ8ZxkG7GgY" target="_blank" class="btn">Watch Video</a> -->
+  </section>
+
+  <div class="pimg4">
+    <div class="ptext">
+      <span class="border trans">
+        MIND STONE
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    <h2>POWER STONE</h2>
+    <p>
+      The Power Stone was one of the six Infinity Stones... after decimating the planet.
+    </p>
+    <!-- <a href="https://www.youtube.com/watch?v=od0iXDomn6g" target="_blank" class="btn">Watch Video</a> -->
+  </section>
+
+  <div class="pimg5">
+    <div class="ptext">
+      <span class="border trans">
+        POWER STONE
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    <h2>REALITY STONE</h2>
+    <p>
+      The Reality Stone, also known as the Aether... from whom Thanos later retrieved it.
+    </p>
+    <!-- <a href="https://www.youtube.com/watch?v=Rz4A0nQe5i4" target="_blank" class="btn">Watch Video</a> -->
+  </section>
+
+  <div class="pimg6">
+    <div class="ptext">
+      <span class="border trans">
+        REALITY STONE
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    <h2>SPACE STONE</h2>
+    <p>
+      The Space Stone was one of the six Infinity Stones... before being seized by Thanos in 2018.
+    </p>
+    
+  </section>
+
+  <div class="pimg7">
+    <div class="ptext">
+        SPACE STONE
+    </div>
+  </div>
+  <script>
+    // Wait until DOM is ready
+    document.addEventListener("DOMContentLoaded", function () {
+      const buttons = document.querySelectorAll(".video-btn");
+  
+      buttons.forEach(btn => {
+        btn.addEventListener("click", function () {
+          const videoURL = this.getAttribute("data-video");
+          if (videoURL) {
+            window.open(videoURL, '_blank');
+          }
+        });
+      });
+    });
+  </script>
+  
+</body>
+</html>
